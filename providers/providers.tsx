@@ -1,4 +1,4 @@
-// import Footer from "@/components/Navbar";
+import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
 
 export default function Providers({ children }: { children: React.ReactNode }) {
@@ -8,9 +8,9 @@ export default function Providers({ children }: { children: React.ReactNode }) {
         <Navbar />
       </header>
       <main>{children}</main>
-      {/* <footer>
+      <footer>
         <Footer />
-      </footer> */}
+      </footer>
       
     </div>
   );

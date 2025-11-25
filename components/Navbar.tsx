@@ -153,7 +153,7 @@ export default function Navbar() {
                     </span>
                     <span
                       className={`transition-colors duration-300 ${item.label === "Hamza" ? "hidden sm:inline" : ""
-                        } ${isActive ? "text-foreground" : "text-muted-foreground group-hover:text-foreground"}`}
+                        } ${isActive ? "text-foreground" : "text-foreground group-hover:text-foreground"}`}
                     >
                       {item.label}
                     </span>
@@ -168,13 +168,13 @@ export default function Navbar() {
                   >
                     <span
                       className={`transition-colors duration-300 ${item.label === 'Hamza' ? '' : 'hidden sm:inline'
-                        } ${isActive ? item.iconColor : `text-foreground group-hover:${item.iconColor}`}`}
+                        } ${isActive ? item.iconColor : ` text-foreground group-hover:${item.iconColor}`}`}
                     >
                       {item.icon}
                     </span>
                     <span
                       className={`transition-colors duration-300 ${item.label === "Hamza" ? "hidden sm:inline" : ""
-                        } ${isActive ? "text-foreground" : "text-muted-foreground group-hover:text-foreground"}`}
+                        } ${isActive ? "text-foreground" : " text-foreground group-hover:text-foreground"}`}
                     >
                       {item.label}
                     </span>
