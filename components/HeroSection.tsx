@@ -60,7 +60,7 @@ export default function HeroSection() {
             </BlurFade>
 
             {/* social media links */}
-            <BlurFade delay={0.25 * 3} inView direction="down">
+            <BlurFade delay={0.25 * 2} inView direction="down">
                 <div className="flex gap-5 my-3">
                     <LinkedInButton />
                     <GitHubButton />

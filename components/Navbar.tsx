@@ -102,7 +102,7 @@ export default function Navbar() {
   const isDarkTheme = theme === "dark"
 
   return (
-    <section className=" absolute top-10 left-1/2 -translate-x-1/2 z-50 text-sm sm:text-base md:text-lg">
+    <section className=" fixed top-10 left-1/2 -translate-x-1/2 z-50 text-sm sm:text-base md:text-lg">
       <motion.nav
         className="p-1 rounded-2xl bg-linear-to-b from-background/80 to-background/40 backdrop-blur-lg border border-border/40 shadow-lg overflow-hidden dark:border-gray-950"
         initial="initial"
