@@ -1,4 +1,4 @@
-import { Globe, BrainCircuit, Rocket } from 'lucide-react';
+import { Gpu, BrainCircuit, Rocket } from 'lucide-react';
 import LayeredText from './LayeredText';
 import { BlurFade } from './ui/blur-fade';
 
@@ -11,10 +11,10 @@ type Feature = {
 export default function ServiceCard() {
   const features: Feature[] = [
     {
-      icon: Globe,
+      icon: Gpu,
       color: "bg-sky-400",
-      title: "Modern Applications",
-      description: "Designing and developing high-performance web & mobile apps with modern frameworks and great user experience.",
+      title: "Machine Learning",
+      description: "Developing intelligent models that learn from datasets to provide predictive insights and automation.",
     },
     {
       icon: BrainCircuit,
@@ -26,21 +26,21 @@ export default function ServiceCard() {
       icon: Rocket,
       color: "bg-rose-400",
       title: "Optimized Solutions",
-      description: "Crafting scalable systems with fast load times, optimized SEO, and best development practices for future growth."
+      description: "Crafting scalable systems with fast load times, and best development practices for future growth."
     },
   ]
 
   return (
-    <div className="w-full mt-15">
+    <div className="w-full md:w-[82%] lg:w-[82%] mx-auto mt-10">
 
       {/* title */}
-      <BlurFade delay={0.25 * 3} inView >
-        <LayeredText heading="Professional Highlights" subheading="I like building things —" />
+      <BlurFade delay={0.15} inView >
+        <LayeredText heading="Academic Interests" subheading="Future Directions —" />
       </BlurFade>
 
       {/* cards */}
-      <BlurFade delay={0.15} inView >
-        <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3">
+      <BlurFade delay={0.2} inView >
+        <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 px-1">
           {features.map((feature, index) => (
             <div key={index} className="relative overflow-hidden rounded-lg bg-[#d4d4d434] dark:bg-[#27272B66] p-4 shadow-md flex flex-col items-start gap-4 min-h-40 ">
               <div

@@ -14,7 +14,7 @@ export default function ExperienceSection() {
         <div>
             {/* Experience Section */}
             <BlurFade delay={0.1} direction="up" inView>
-                <div className="mt-16 max-w-[900px]">
+                <div className="w-full md:w-[82%] lg:w-[82%] mx-auto mt-10 ">
                     <LayeredText heading="Experience" subheading="Professional Journey —" />
 
                     {/* <div className="flex gap-4 mb-9 ">

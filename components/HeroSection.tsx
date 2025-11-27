@@ -13,10 +13,10 @@ import {
 
 export default function HeroSection() {
     return (
-        <div className="mt-10 hero-section w-full mx-auto flex flex-col items-center justify-center md:px-4">
+        <div className="mt-16 hero-section w-full mx-auto flex flex-col items-center justify-center md:px-4">
             {/* Status Badge */}
             < div className="my-2 w-full max-w-[600px] mx-auto md:mx-0" >
-                <BlurFade delay={0.25} inView>
+                {/* <BlurFade delay={0.25} inView>
                     <div className='flex items-center justify-center mb-4 '>
                         <div className="inline-flex items-center gap-2 px-4 py-2">
                             <div className="relative flex items-center justify-center">
@@ -26,7 +26,7 @@ export default function HeroSection() {
                             <span className="text-green-700 text-lg font-medium ms-2">Available for work</span>
                         </div>
                     </div>
-                </BlurFade>
+                </BlurFade> */}
 
                 <BlurFade delay={0.25} inView>
                     <div className="flex justify-center items-center gap-4">

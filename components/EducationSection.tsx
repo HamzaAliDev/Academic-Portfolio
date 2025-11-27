@@ -8,10 +8,10 @@ import Link from 'next/link'
 
 export default function EducationSection() {
     return (
-        <div>
+        <div className='w-full md:w-[82%] lg:w-[82%] mx-auto'>
             {/* Education Section */}
             <BlurFade delay={0.1} direction="up" inView>
-                <div className="mt-16 max-w-[900px]">
+                <div className="mt-10">
                     <LayeredText heading="Education" subheading="Academic Background —" />
 
                     <div className="space-y-9">
@@ -62,7 +62,7 @@ export default function EducationSection() {
                                 <p className="text-[16.5px]">
                                     Completed intermediate studies with a focus on science
                                     subjects, achieving an outstanding score of
-                                    <span className="text-violet-400">&nbsp;96%</span>. This
+                                    <span className="text-violet-400 font-bold">&nbsp;96%</span>. This
                                     period helped me build a strong foundation in analytical
                                     thinking and problem-solving skills.
                                 </p>

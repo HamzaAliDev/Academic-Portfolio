@@ -6,7 +6,7 @@ import LayeredText from "./LayeredText"
 
 export default function ContactSection() {
     return (
-        <div className="w-full my-15">
+        <div className="w-full md:w-[82%] lg:w-[82%] mx-auto my-10">
             {/* title */}
             <BlurFade delay={0.25} inView >
                 <LayeredText heading="Get in Touch" subheading="Let's collaborate —" />
