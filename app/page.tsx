@@ -1,4 +1,6 @@
 import ContactSection from "@/components/ContactSection";
+import EducationSection from "@/components/EducationSection";
+import ExperienceSection from "@/components/ExperienceSection";
 import HeroSection from "@/components/HeroSection";
 import ServiceCard from "@/components/ServiceCard";
 import SkillSection from "@/components/SkillSection";
@@ -9,6 +11,8 @@ export default function Home() {
       <HeroSection />
       <ServiceCard />
       <SkillSection />
+      <ExperienceSection />
+      <EducationSection />
       <ContactSection />
     </div>
   );

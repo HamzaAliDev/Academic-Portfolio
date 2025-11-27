@@ -10,7 +10,9 @@ export default function SkillSection() {
                 <LayeredText heading="Tech Stack" subheading="Skills & Tools —" />
             </BlurFade>
 
-            <Tool />
+            <BlurFade delay={0.25 * 2} inView >
+                <Tool />
+            </BlurFade>
         </div>
     )
 }
