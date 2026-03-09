@@ -2,8 +2,9 @@
 
 import type * as React from "react"
 import { motion } from "framer-motion"
+import Link from "next/link"
 import { usePathname } from "next/navigation"
-import { User, Phone, Layers, Presentation, Calendar } from "lucide-react"
+import { Phone, Layers, Calendar } from "lucide-react"
 import logo from '../public/logo.svg'
 import { useTheme } from "next-themes"
 import Themetoggle from "./Themetoggle"
@@ -93,6 +94,8 @@ const sharedTransition: any = {
   duration: 0.5,
 }
 
+const MotionLink = motion(Link)
+
 export default function Navbar() {
   const { theme } = useTheme()
   const pathname = usePathname()
@@ -137,9 +140,8 @@ export default function Navbar() {
                       borderRadius: "16px",
                     }}
                   />
-                  <motion.a
+                  <MotionLink
                     href={item.href}
-                    // className="flex items-center gap-2 px-3 md:px-4 py-2 relative z-10 bg-transparent rounded-xl"
                     className={`flex items-center  ${item.label === "Hamza" ? "px-2 py-1 font-bold" : "px-2 gap-2 md:px-4 py-2"} relative z-10 bg-transparent rounded-xl`}
                     variants={itemVariants}
                     transition={sharedTransition}
@@ -157,10 +159,9 @@ export default function Navbar() {
                     >
                       {item.label}
                     </span>
-                  </motion.a>
-                  <motion.a
+                  </MotionLink>
+                  <MotionLink
                     href={item.href}
-                    // className="flex items-center gap-2 px-3 md:px-4 py-2 absolute inset-0 z-10 bg-transparent rounded-xl"
                     className={`flex items-center  ${item.label === "Hamza" ? "px-2 py-1 font-bold" : "gap-2 px-3 md:px-4 py-2"} absolute inset-0 z-10 bg-transparent rounded-xl`}
                     variants={backVariants}
                     transition={sharedTransition}
@@ -178,7 +179,7 @@ export default function Navbar() {
                     >
                       {item.label}
                     </span>
-                  </motion.a>
+                  </MotionLink>
                 </motion.div>
               </motion.li>
             )
