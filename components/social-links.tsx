@@ -81,4 +81,25 @@ function WhatsAppButton() {
     );
 }
 
-export { LinkedInButton, GitHubButton, InstagramButton, WhatsAppButton };
+function EmailButton() {
+    return (
+        <a href="mailto:alihamzamashooq@gmail.com"
+            className="w-[35px] h-[35px] flex items-center justify-center border-none bg-transparent relative rounded-md cursor-pointer transition-all duration-300 group"
+        >
+            <span className="w-full h-full flex items-center justify-center bg-transparent backdrop-blur-0 tracking-wider rounded-lg transition-all duration-300 border border-gray-400/50 group-hover:border-gray-300/50 group-hover:bg-gray-400/50 group-hover:backdrop-blur-md">
+                <svg
+                    fill="white"
+                    viewBox="0 0 24 24"
+                    height="1.2em"
+                    xmlns="http://www.w3.org/2000/svg"
+                >
+                    <path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+                </svg>
+            </span>
+            <span className="absolute w-full h-full bg-linear-to-br from-[#f09433] to-[#bc1888] z-[-1] rounded-lg transition-all duration-300 group-hover:rotate-35 origin-bottom"></span>
+        </a>      
+    );
+}
+
+
+export { LinkedInButton, GitHubButton, InstagramButton, WhatsAppButton, EmailButton };

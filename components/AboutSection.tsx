@@ -13,24 +13,22 @@ export default function AboutSection() {
             {/* Content Section */}
             <div className="-mt-3 ms-3">
                 <BlurFade delay={0.15} inView >
-                    <p className="text-lg md:text-xl leading-relaxed text-foreground/80 font-light">
-                        I&apos;m a 7th-semester Computer Science student at <span className="font-semibold">GCUF</span>,
+                    <p className="text-lg md:text-lg leading-relaxed text-foreground/80 ">
+                        I&apos;m a 8th-semester Computer Science student at <span className="font-semibold">GCUF</span>,
                         My academic journey is driven by a strong motivation to explore
                         how intelligent systems and AI can solve real-world problems.
-                        With a solid foundation in <span className="font-semibold dark:text-white">algorithms</span>, <span className="font-semibold dark:text-white">data structures, AI</span>, and modern
-                        <Highlighter action="circle" color="#FF9800"><span className="font-semibold dark:text-white">&nbsp;web development</span></Highlighter>.
-                        I focus on building high-performance web applications and
-                        AI-enhanced solutions.
+                        With a solid foundation in <span className="font-semibold dark:text-white">data structures</span>, 
+                        <span className="font-semibold dark:text-white"> algorithms</span>, modern <span className="font-semibold dark:text-white">web technologies</span> and 
+                        <Highlighter action="circle" color="#FF9800"><span className="font-semibold dark:text-white">&nbsp;Artificial Inteligence</span></Highlighter>.
+                        I focus on building high-performance web applications and AI-enhanced solutions.
                     </p>
 
-                    <p className="text-lg md:text-xl leading-relaxed text-foreground/80 font-light mt-5">
-                        My interests span across <span className="font-semibold dark:text-white">Machine Learning</span>,
-                        <Highlighter action="highlight" color="#A684FF" iterations={1}><span className="font-normal dark:text-white">&nbsp;Artificial Intelligence</span></Highlighter>, and
-                        <span className="font-semibold dark:text-white">&nbsp;Full-Stack Engineering</span>,
-                        and I aim to pursue advanced research in these
-                        areas through the international Master&apos;s programs. I combine strong technical skills
-                        with continuous curiosity, disciplined learning, and a passion for turning complex
-                        ideas into impactful, intelligent applications.
+                    <p className="text-lg md:text-lg leading-relaxed text-foreground/80 mt-5">
+                        I have hands-on experience with <span className="font-semibold dark:text-white">Computer Vision</span> techniques, 
+                        <Highlighter action="highlight" color="#87CEFA" iterations={1}><span className="font-semibold dark:text-white">&nbsp;Machine Learning </span></Highlighter> models and <span className="font-semibold dark:text-white"> AI-driven </span>solutions. 
+                        I aim to advance my knowledge through research in these areas. Curious, disciplined, and dedicated, I focus on 
+                        combining theoretical understanding with practical experimentation to build impactful, intelligent applications.
+                        
                     </p>
                 </BlurFade>
             </div>

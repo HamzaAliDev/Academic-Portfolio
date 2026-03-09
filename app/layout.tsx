@@ -11,11 +11,11 @@ const funnelDisplay = Funnel_Display({
 
 export const metadata: Metadata = {
   title: {
-    default: "Ali Hamza Mashooq",
-    template: "%s | Ali Hamza Mashooq",
+    default: "Ali Hamza",
+    template: "%s | Ali Hamza",
   },
   description:
-    "Portfolio of Ali Hamza Mashooq — software engineer with experience in Next.js, MERN, Firebase, Artificial Intelligence and more.",
+    "Portfolio of Ali Hamza — software engineer with experience in Next.js, MERN, Firebase, Artificial Intelligence and more.",
   keywords: [
     "Ali Hamza",
     "Ali Hamza Mashooq",
@@ -36,8 +36,9 @@ export const metadata: Metadata = {
     "TypeScript Developer",
     "Python Developer",
   ],
-  authors: [{ name: "Ali Hamza Mashooq" }],
-  creator: "Ali Hamza Mashooq",
+  authors: [{ name: "Ali Hamza" }],
+  creator: "Ali Hamza",
+  metadataBase: new URL("https://ali-hamza.me"),
 };
 
 export default function RootLayout({

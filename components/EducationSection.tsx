@@ -1,10 +1,10 @@
 import Image from 'next/image'
+import Link from 'next/link'
 import { BlurFade } from './ui/blur-fade'
 import GcufLogo from "../public/images/gcuf-logo.png"
 import KipsLogo from "../public/images/kips-logo.jpeg"
 import LayeredText from './LayeredText'
 import { ExternalLink } from 'lucide-react'
-import Link from 'next/link'
 
 export default function EducationSection() {
     return (
@@ -36,7 +36,7 @@ export default function EducationSection() {
                                     Pursuing a Computer Science degree with a strong academic focus on software development,
                                     core computational theory, and practical applications of AI.
                                     I have maintained a CGPA of
-                                    <span className="text-violet-400 font-bold">&nbsp;3.73 / 4.0</span> through my 7 semesters.
+                                    <span className="text-violet-400 font-bold">&nbsp;3.74 / 4.0</span> through my 7 semesters.
                                 </p>
                             </div>
                         </div>

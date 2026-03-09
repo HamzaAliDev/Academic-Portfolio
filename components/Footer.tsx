@@ -3,7 +3,7 @@ export default function Footer() {
     return (
         <>
             <hr />
-            <footer className="bg-theme text-theme text-center py-8 mt-auto">
+            <footer className=" text-theme text-center py-8 mt-auto">
                 <p className="text-md">
                     Design & Developed by <span className="font-bold">Ali Hamza</span>
                 </p>

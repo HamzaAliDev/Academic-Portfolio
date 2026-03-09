@@ -1,53 +1,49 @@
 import Image from 'next/image'
-import html from '../public/tools/html.png';
-import css from '../public/tools/css.png';
 import c from '../public/tools/c.png';
 import javascript from '../public/tools/js.png';
-import react from '../public/tools/react.png';
-import bootstrap from '../public/tools/bootstrap.webp';
-import cloudinary from '../public/tools/cloudinary.png';
-import tailwind from '../public/tools/tailwind.png';
 import nextjs from '../public/tools/nextjs.webp';
-import sass from '../public/tools/sass.png';
 import firebase from '../public/tools/firebase.png';
 import mongodb from '../public/tools/mongodb.png'
 import mysql from '../public/tools/mysql.png'
 import nodejs from '../public/tools/nodejs.png'
-import oracle from '../public/tools/oracle.png'
 import python from '../public/tools/python.png'
-import vite from '../public/tools/vite.png'
 import ts from '../public/tools/ts.png'
-import zustand from '../public/tools/zustand.png'
 import clerk from '../public/tools/clerk.png'
 import websockets from '../public/tools/websockets.png'
-import antd from '../public/tools/antd.png'
+import git from '../public/tools/git.png'
+import github from '../public/tools/github.png'
+import opencv from '../public/tools/opencv.png'
+import tensorflow from '../public/tools/tensorflow.png'
+import pytorch from '../public/tools/pytorch.png'
+import numpy from '../public/tools/numpy.png'
+import scikitImage from '../public/tools/scikit-image.png'
+import fastapi from '../public/tools/fastapi.png'
+import supabase from '../public/tools/supabase.png'
 import { Marquee } from './ui/marquee';
 
 
 export default function Tool() {
     const toolList = [
-        { name: 'HTML', image: html, alt: 'HTML Logo', width: 30, height: 30 },
-        { name: 'CSS', image: css, alt: 'CSS Logo', width: 30, height: 27 },
         { name: 'C++', image: c, alt: 'C Logo', width: 30, height: 30 },
         { name: 'JavaScript', image: javascript, alt: 'JavaScript Logo', width: 30, height: 33 },
-        { name: 'React', image: react, alt: 'React Logo', width: 30, height: 30 },
-        { name: 'Bootstrap', image: bootstrap, alt: 'Bootstrap Logo', width: 30, height: 35 },
-        { name: 'Cloudinary', image: cloudinary, alt: 'Cloudinary Logo', width: 30, height: 30 },
-        { name: 'Tailwind CSS', image: tailwind, alt: 'Tailwind CSS Logo', width: 20, height: 22 },
         { name: 'Next.js', image: nextjs, alt: 'Next.js Logo', width: 30, height: 30 },
-        { name: 'Sass', image: sass, alt: 'Sass Logo', width: 30, height: 30 },
         { name: 'Firebase', image: firebase, alt: 'Firebase Logo', width: 30, height: 30 },
-        { name: 'MongoDB', image: mongodb, alt: 'MongoDB Logo', width: 30, height: 30 },
-        { name: 'MySQL', image: mysql, alt: 'MySQL Logo', width: 30, height: 30 },
         { name: 'Node.js', image: nodejs, alt: 'Node.js Logo', width: 30, height: 30 },
-        { name: 'Oracle DB', image: oracle, alt: 'Oracle DB Logo', width: 30, height: 30 },
-        { name: "Python", image: python, alt: "Python logo", width: 30, height: 30 },
-        { name: "Vite", image: vite, alt: "Vite logo", width: 30, height: 30 },
         { name: "TypeScript", image: ts, alt: "TypeScript logo", width: 30, height: 27 },
-        { name: "Zustand", image: zustand, alt: "Zustand logo", width: 30, height: 30 },
         { name: "Clerk", image: clerk, alt: "Clerk logo", width: 40, height: 40 },
         { name: "WebSockets", image: websockets, alt: "WebSockets logo", width: 30, height: 30 },
-        { name: "Ant Design", image: antd, alt: "antd logo", width: 30, height: 30 },
+        { name: 'MySQL', image: mysql, alt: 'MySQL Logo', width: 30, height: 30 },
+        { name: 'MongoDB', image: mongodb, alt: 'MongoDB Logo', width: 30, height: 30 },
+        { name: 'Supabase', image: supabase, alt: 'Supabase Logo', width: 100, height: 30 },
+        { name: "Python", image: python, alt: "Python logo", width: 30, height: 30 },
+        { name: "OpenCV", image: opencv, alt: "OpenCV logo", width: 30, height: 30 },
+        { name: "TensorFlow", image: tensorflow, alt: "TensorFlow logo", width: 30, height: 30 },
+        { name: "PyTorch", image: pytorch, alt: "PyTorch logo", width: 30, height: 30 },
+        { name: "NumPy", image: numpy, alt: "NumPy logo", width: 30, height: 30 },
+        { name: "Scikit-Image", image: scikitImage, alt: "Scikit-Image logo", width: 30, height: 30 },
+        { name: "FastAPI", image: fastapi, alt: "FastAPI logo", width: 30, height: 30 },
+        { name: 'Git', image: git, alt: 'Git Logo', width: 30, height: 30 },
+        { name: 'GitHub', image: github, alt: 'GitHub Logo', width: 30, height: 30 },
     ]
 
     const firstRow = toolList.slice(0, toolList.length / 2);

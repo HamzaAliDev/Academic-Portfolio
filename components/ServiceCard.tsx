@@ -1,4 +1,4 @@
-import { Gpu, BrainCircuit, Rocket } from 'lucide-react';
+import { Gpu, BrainCircuit, Cpu } from 'lucide-react';
 import LayeredText from './LayeredText';
 import { BlurFade } from './ui/blur-fade';
 
@@ -11,7 +11,7 @@ type Feature = {
 export default function ServiceCard() {
   const features: Feature[] = [
     {
-      icon: Gpu,
+      icon: Cpu,
       color: "bg-sky-400",
       title: "Machine Learning",
       description: "Developing intelligent models that learn from datasets to provide predictive insights and automation.",
@@ -19,15 +19,16 @@ export default function ServiceCard() {
     {
       icon: BrainCircuit,
       color: "bg-violet-400",
-      title: "AI-Powered Systems",
-      description: "Integrating cutting-edge AI technologies to create intelligent, real-time, agentic and interactive applications.",
+      title: "Deep Learning",
+      description:"Exploring deep learning architectures to model complex data patterns, enabling intelligent systems for tasks.",
     },
     {
-      icon: Rocket,
+      icon: Gpu,
       color: "bg-rose-400",
-      title: "Optimized Solutions",
-      description: "Crafting scalable systems with fast load times, and best development practices for future growth."
+      title: "Computer Vision ",
+      description: "Applying advanced image processing and analysis techniques to enable machines to interpret and understand visual data.",
     },
+    
   ]
 
   return (
@@ -48,9 +49,9 @@ export default function ServiceCard() {
               >
                 <feature.icon className=" text-white ms-1 mt-1" size={28} />
               </div>
-              <div className="p-4 ">
-                <h3 className="text-heading-theme ms-8 text-xl font-semibold text-gray-800">{feature.title}</h3>
-                <p className="py-2 text-theme mt-2 text-md text-gray-600">{feature.description}</p>
+              <div className="px-3 py-4">
+                <h3 className="text-heading-theme ms-7 text-xl font-semibold text-gray-800">{feature.title}</h3>
+                <p className="py-2 text-theme mt-2 ps-2 text-md text-gray-600">{feature.description}</p>
               </div>
             </div>
           ))}

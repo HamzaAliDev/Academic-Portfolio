@@ -9,7 +9,6 @@ import {
     LinkedInButton,
     WhatsAppButton,
 } from "@/components/social-links"
-// import Button from './Button/Button'
 
 export default function HeroSection() {
     return (
@@ -49,12 +48,12 @@ export default function HeroSection() {
             {/* Name and Title */}
             <BlurFade delay={0.25} inView>
                 <h1 className='text-6xl font-semibold text-center mb-3 md:text-8xl dark:text-gray-50'>I&apos;m <AuroraText>Ali Hamza</AuroraText></h1>
-                <h2 className='text-theme text-3xl font-semibold text-center md:text-5xl mb-4 md:mb-10'>Software Engineer</h2>
+                <h2 className='text-theme text-2xl font-semibold text-center md:text-4xl mb-4 md:mb-10'>AI & Computer Vision Explorer</h2>
             </BlurFade>
             <BlurFade delay={0.25 * 2} inView>
                 <div className="max-w-3xl mx-auto">
-                    <p className='text-theme text-xl text-center mb-6'>
-                        Blending robust engineering with modern AI -turning complex ideas into polished, user-centric web applications powered by real-time and intelligent technologies.
+                    <p className='text-theme text-lg text-center mb-6'>
+                        Exploring the frontiers of machine learning and computer vision, I focus on developing intelligent systems that perceive, analyze, and interpret visual data. Passionate about advancing AI research and solving real-world challenges.
                     </p>
                 </div>
             </BlurFade>

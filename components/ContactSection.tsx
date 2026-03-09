@@ -1,6 +1,6 @@
+import Link from "next/link"
 import { Send } from "lucide-react"
 import Button from "./ContactBtn/Button"
-import Link from "next/link"
 import { BlurFade } from "./ui/blur-fade"
 import LayeredText from "./LayeredText"
 
@@ -30,8 +30,8 @@ export default function ContactSection() {
 
                     {/* Description */}
                     <p className="text-gray-600 dark:text-gray-400 text-lg leading-relaxed mb-3 max-w-4xl">
-                        Ready to bring your ideas to life? I specialize in creating exceptional digital experiences and would love
-                        to collaborate on your next project. Let&apos;s connect and turn your vision into reality!
+                       Open to collaboration in machine learning and computer vision research,
+                        I&apos;m eager to explore ideas that push the boundaries of intelligent and vision-based systems.
                     </p>
 
                     {/* Get in touch button */}
