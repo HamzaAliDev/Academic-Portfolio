@@ -1,26 +1,26 @@
 export const projects = [
   {
     isApp: false,
-    title: "Face Recognition",
+    title: "Churn Prediction",
     description:
-      "Face Recognition System is an end-to-end <strong>machine learning and computer vision</strong> application designed for real-time user identification. The system follows a microservice architecture, where a <strong>FastAPI-based ML service</strong> uses deep learning (FaceNet via DeepFace) to generate facial embeddings and perform accurate recognition.\n\n A <strong>Node.js/Express backend</strong> manages user registration, database storage, and real-time recognition through WebSockets, seamlessly communicating with the ML service. The <strong>Next.js frontend</strong> provides a responsive, camera-enabled interface for face registration and live recognition using face-api.js.\n\n This project demonstrates practical deployment of computer vision models integrated with scalable APIs and modern web technologies.",
-    href: "/projects/face-recognition",
-    slug: "face-recognition",
-    image: "/projects/face-recognize.svg",
-    // liveUrl: "https://store-it-flame.vercel.app/",
-    githubUrl: "https://github.com/HamzaAliDev/Face-Recognized-ML-Service",
+      "Customer Churn Prediction is a machine learning project aimed at predicting customer attrition for a telecommunications company. The system utilizes historical customer data to train a predictive model that identifies patterns associated with customer churn.\n\n Performed data preprocessing, feature engineering, and trained multiple ML models including Logistic Regression, Random Forest, and XGBoost. Built a REST API using FastAPI to serve the trained model. Designed an interactive web interface using Next.js for real-time predictions.",
+    href: "/projects/churn-prediction",
+    slug: "churn-prediction",
+    image: "/projects/churn-prediction.svg",
+    liveUrl: "https://customer-churn-prediction-plum.vercel.app/",
+    githubUrl: "https://github.com/HamzaAliDev/Customer-Churn-Prediction",
     technologies: [
       { name: "Next.js 15", icon: "/tools/nextjs.webp" },
       { name: "NumPy", icon: "/tools/numpy.png" },
       { name: "FastAPI", icon: "/tools/fastapi.png" },
-      { name: "MongoDB", icon: "/tools/mongodb.png" },
-      { name: "WebSockets", icon: "/tools/websockets.png" },
+      { name: "Jupyter", icon: "/tools/Jupyter.png" },
+      { name: "Scikit-learn", icon: "/tools/scikit-learn.png" },
     ],
     features: [
-      "Upload images for face recognition",
-      "Real-time face identification using ML algorithms",
-      "Persistent data storage for recognized faces using MongoDB",
-      "User-friendly dashboard displaying recognition history and statistics"
+      "Worked on Telco Customer Churn dataset (7043 records, 30 features)",
+      "Performed data cleaning, encoding, and feature engineering for model readiness",
+      "Trained and compared multiple models (Logistic Regression, Random Forest, XGBoost)",
+      "Achieved best performance with Logistic Regression: Accuracy: 82%, F1 Score: 0.64, ROC-AUC: 0.74"
     ],
   },
   {
@@ -70,6 +70,30 @@ export const projects = [
       "REST API and WebSocket support for flexible integration",
       "Responsive frontend with live video streaming",
       "Blink state machine for reliable detection",
+    ],
+  },
+  {
+    isApp: false,
+    title: "Face Recognition",
+    description:
+      "Face Recognition System is an end-to-end <strong>machine learning and computer vision</strong> application designed for real-time user identification. The system follows a microservice architecture, where a <strong>FastAPI-based ML service</strong> uses deep learning (FaceNet via DeepFace) to generate facial embeddings and perform accurate recognition.\n\n A <strong>Node.js/Express backend</strong> manages user registration, database storage, and real-time recognition through WebSockets, seamlessly communicating with the ML service. The <strong>Next.js frontend</strong> provides a responsive, camera-enabled interface for face registration and live recognition using face-api.js.\n\n This project demonstrates practical deployment of computer vision models integrated with scalable APIs and modern web technologies.",
+    href: "/projects/face-recognition",
+    slug: "face-recognition",
+    image: "/projects/face-recognize.svg",
+    // liveUrl: "https://store-it-flame.vercel.app/",
+    githubUrl: "https://github.com/HamzaAliDev/Face-Recognized-ML-Service",
+    technologies: [
+      { name: "Next.js 15", icon: "/tools/nextjs.webp" },
+      { name: "NumPy", icon: "/tools/numpy.png" },
+      { name: "FastAPI", icon: "/tools/fastapi.png" },
+      { name: "MongoDB", icon: "/tools/mongodb.png" },
+      { name: "WebSockets", icon: "/tools/websockets.png" },
+    ],
+    features: [
+      "Upload images for face recognition",
+      "Real-time face identification using ML algorithms",
+      "Persistent data storage for recognized faces using MongoDB",
+      "User-friendly dashboard displaying recognition history and statistics"
     ],
   },
   {

@@ -8,15 +8,15 @@ import { ChevronRight } from "lucide-react";
 export default function HighlightedProjectCards() {
     const projects = [
         {
-            title: "Face Recognition",
-            slug: "face-recognition",
+            title: "Churn Prediction",
+            slug: "churn-prediction",
             description:
-                "A computer vision based real-time face recognition system designed to identify individuals under challenging conditions such as poor lighting and partial occlusion.",
-            imageSrc: "/projects/face-recognize.png",
+                "A machine learning project aimed at predicting customer attrition for a telecommunications company.",
+            imageSrc: "/projects/churn-prediction.png",
             stack: [
                 { name: "Next.js", imageSrc: "/tools/nextjs.webp" },
                 { name: "NumPy", imageSrc: "/tools/numpy.png" },
-                { name: "MongoDB", imageSrc: "/tools/mongodb.png" },
+                { name: "Scikit-learn", icon: "/tools/scikit-learn.png" },
             ],
         },
 
