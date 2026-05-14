@@ -6,7 +6,7 @@ interface CertificateCardProps {
   category: string;
   title: string;
   organization: string;
-  description: string;
+  // description: string;
   date: string;
   certificateLink: string;
   iconBgColor?: string;
@@ -17,7 +17,7 @@ export function CertificateCard({
   category,
   title,
   organization,
-  description,
+  // description,
   date,
   certificateLink,
   iconBgColor = 'bg-blue-600',
@@ -42,9 +42,9 @@ export function CertificateCard({
         <p className="text-sm text-gray-600 dark:text-gray-400 mb-4">
           {organization}
         </p>
-        <p className="text-sm text-gray-600 dark:text-gray-300 line-clamp-2">
+        {/* <p className="text-sm text-gray-600 dark:text-gray-300 line-clamp-2">
           {description}
-        </p>
+        </p> */}
       </div>
 
       {/* Footer Section */}

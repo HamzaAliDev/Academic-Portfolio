@@ -1,7 +1,7 @@
 'use client';
 
 import { CertificateCard } from '../components/CertificateCard';
-import { BookOpen, Brain, Eye, Zap } from 'lucide-react';
+import { BookOpen, Brain, Bot } from 'lucide-react';
 import { BlurFade } from './ui/blur-fade';
 import LayeredText from './LayeredText';
 
@@ -28,6 +28,17 @@ const certificates = [
         certificateLink: '/images/IBM_AI.pdf',
         iconBgColor: 'bg-purple-600',
     },
+    {
+        icon: <Bot className="w-5 h-5" />,
+        category: 'Generative AI',
+        title: 'Introduction to Generative AI',
+        organization: 'Google Skills',
+        description:
+            'Comprehensive introduction to generative AI concepts, including generative models, applications, and ethical considerations.',
+        date: 'May 2026',
+        certificateLink: 'https://www.skills.google/public_profiles/962f532a-cf3c-4eeb-86f5-6aaef627a987/badges/24155402',
+        iconBgColor: 'bg-orange-600',
+    },
 ];
 
 export default function CertificateSection() {
@@ -48,7 +59,7 @@ export default function CertificateSection() {
                             category={cert.category}
                             title={cert.title}
                             organization={cert.organization}
-                            description={cert.description}
+                            // description={cert.description}
                             date={cert.date}
                             certificateLink={cert.certificateLink}
                             iconBgColor={cert.iconBgColor}
